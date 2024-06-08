@@ -143,5 +143,5 @@ def main(page: ft.Page):
 
     page.add(message_container)
 
-ft.app(target=main, host="0.0.0.0", port=8551)
+ft.app(target=main)
 
