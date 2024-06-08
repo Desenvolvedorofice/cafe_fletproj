@@ -132,7 +132,7 @@ def main(page: ft.Page):
         buf.seek(0)
         plt.close(fig)
 
-        # Codificar a imagem em base64
+        
         image_base64 = b64encode(buf.getvalue()).decode('utf-8')
         return f"data:image/png;base64,{image_base64}"
     def on_exit_click(e=None):
